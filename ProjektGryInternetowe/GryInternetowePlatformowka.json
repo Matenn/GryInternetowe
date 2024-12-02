@@ -5795,7 +5795,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5800155239904874,
+        "zoomFactor": 0.28905162031349235,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5943,6 +5943,23 @@
           "x": 210,
           "y": 655,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 491,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "0a39c129-109f-4f5b-9f99-b0c3436bcc7e",
+          "width": 463,
+          "x": -446,
+          "y": 684,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
