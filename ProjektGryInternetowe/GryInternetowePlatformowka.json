@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 218,
+    "build": 217,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -1474,6 +1474,42 @@
         "name": "assets/Adventure Boy_Jump_10.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork 2_n.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 2_n.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork 3_n.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 3_n.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork 5_n.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 5_n.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1513,6 +1549,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level3"
     }
   ],
   "externalEvents": [],

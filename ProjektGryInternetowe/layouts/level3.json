@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level1",
-  "name": "Level1",
+  "mangledName": "Level3",
+  "name": "Level3",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333345,
+    "zoomFactor": 0.341185602347346,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -35,23 +35,6 @@
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 500,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform1",
-      "persistentUuid": "a83220ff-3459-4347-b958-de018097c115",
-      "width": 500,
-      "x": 27,
-      "y": 672,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -90,48 +73,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 645,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform2",
-      "persistentUuid": "1870d691-b2db-4361-904d-35a2370bab75",
-      "width": 645,
-      "x": 564,
-      "y": 522,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 691,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "23b7b38d-c0b9-45cc-96aa-f498ce0067a4",
-      "width": 691,
-      "x": 1649,
-      "y": -34,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 574,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite3",
+      "name": "PlatformWinda_n",
       "persistentUuid": "884f9b0c-8f41-40ff-8615-18a868a75601",
       "width": 583,
-      "x": 1124,
-      "y": -15,
+      "x": 786,
+      "y": 292,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -163,8 +112,8 @@
       "name": "AdventureBoy",
       "persistentUuid": "38342398-3d0d-455a-a88a-0e442cff2e0d",
       "width": 121,
-      "x": 210,
-      "y": 655,
+      "x": 263,
+      "y": 152,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -174,15 +123,66 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 491,
+      "height": 696,
       "keepRatio": true,
       "layer": "",
-      "name": "Platform2",
-      "persistentUuid": "0a39c129-109f-4f5b-9f99-b0c3436bcc7e",
-      "width": 463,
-      "x": -446,
-      "y": 684,
-      "zOrder": 9,
+      "name": "Platform1_n",
+      "persistentUuid": "404c94ba-7ebb-4586-8664-8c12fc18b072",
+      "width": 733,
+      "x": -19,
+      "y": 76,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 81,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "c31e0376-3314-42d8-9d96-ba3baa235d07",
+      "width": 75,
+      "x": 765,
+      "y": 348,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 77,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "DeathZone",
+      "persistentUuid": "c63933d4-37c8-4c10-ba13-ee7fe4ea8566",
+      "width": 4946,
+      "x": -1384,
+      "y": 1362,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 469,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform2_n",
+      "persistentUuid": "ab40f28c-49cf-4242-82a0-5c64ae9913b0",
+      "width": 509,
+      "x": 1678,
+      "y": -259,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -570,7 +570,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "NewSprite3",
+      "name": "PlatformWinda_n",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -579,17 +579,17 @@
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0,
           "canBeGrabbed": false,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
+          "platformType": "NormalPlatform"
         },
         {
           "name": "RectangleMovement",
           "type": "RectangleMovement::RectangleMovement",
-          "Width": 0,
-          "Height": 700,
+          "Width": 600,
+          "Height": 600,
           "Clockwise": true,
-          "HorizontalEdgeDuration": 0,
+          "HorizontalEdgeDuration": 3,
           "VerticalEdgeDuration": 3,
           "Left": 1.00000000000091,
           "Top": 1.00000000000091,
@@ -612,7 +612,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Untitled_Artwork 2.png",
+                  "image": "Untitled_Artwork 5_n.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -628,32 +628,68 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 331,
-                        "y": 973.5
+                        "x": 93,
+                        "y": 1025.5
                       },
                       {
-                        "x": 681,
-                        "y": 981.5
+                        "x": 366.5,
+                        "y": 956
                       },
                       {
-                        "x": 1315,
-                        "y": 1001
+                        "x": 947,
+                        "y": 932.5
                       },
                       {
-                        "x": 1801.5,
-                        "y": 999
+                        "x": 1158.5,
+                        "y": 881
                       },
                       {
-                        "x": 2054.5,
-                        "y": 1030.5
+                        "x": 1960.5,
+                        "y": 927.5
                       },
                       {
-                        "x": 2120.5,
-                        "y": 1373
+                        "x": 2255,
+                        "y": 1046
                       },
                       {
-                        "x": 381.5,
-                        "y": 1328.5
+                        "x": 2262.5,
+                        "y": 1485
+                      },
+                      {
+                        "x": 1819,
+                        "y": 1368.5
+                      },
+                      {
+                        "x": 1762,
+                        "y": 1603.5
+                      },
+                      {
+                        "x": 1310.5,
+                        "y": 1559.5
+                      },
+                      {
+                        "x": 1217.5,
+                        "y": 1299
+                      },
+                      {
+                        "x": 916,
+                        "y": 1361
+                      },
+                      {
+                        "x": 931.5,
+                        "y": 1557
+                      },
+                      {
+                        "x": 397,
+                        "y": 1562
+                      },
+                      {
+                        "x": 237.5,
+                        "y": 1307
+                      },
+                      {
+                        "x": 90,
+                        "y": 1257.5
                       }
                     ]
                   ]
@@ -3013,6 +3049,243 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Platform1_n",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 2_n.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 348,
+                        "y": 976
+                      },
+                      {
+                        "x": 2048.5,
+                        "y": 976
+                      },
+                      {
+                        "x": 2169.5,
+                        "y": 1409.5
+                      },
+                      {
+                        "x": 265.5,
+                        "y": 1345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DeathZone",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Platform2_n",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 3_n.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 121,
+                        "y": 1198.5
+                      },
+                      {
+                        "x": 322.5,
+                        "y": 976.5
+                      },
+                      {
+                        "x": 2128.5,
+                        "y": 976
+                      },
+                      {
+                        "x": 2342.5,
+                        "y": 1368.5
+                      },
+                      {
+                        "x": 2350.5,
+                        "y": 1688.5
+                      },
+                      {
+                        "x": 1958,
+                        "y": 1776.5
+                      },
+                      {
+                        "x": 1803.5,
+                        "y": 1724.5
+                      },
+                      {
+                        "x": 1617.5,
+                        "y": 1763.5
+                      },
+                      {
+                        "x": 1408.5,
+                        "y": 1681
+                      },
+                      {
+                        "x": 1233,
+                        "y": 1804.5
+                      },
+                      {
+                        "x": 1117,
+                        "y": 1670.5
+                      },
+                      {
+                        "x": 709.5,
+                        "y": 1712
+                      },
+                      {
+                        "x": 443.5,
+                        "y": 1768.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 1595.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3028,19 +3301,28 @@
         "objectName": "NewSprite"
       },
       {
+        "objectName": "DeathZone"
+      },
+      {
         "objectName": "Platform2"
       },
       {
         "objectName": "NewSprite2"
       },
       {
-        "objectName": "NewSprite3"
+        "objectName": "PlatformWinda_n"
       },
       {
         "objectName": "CoinsTxt"
       },
       {
         "objectName": "AdventureBoy"
+      },
+      {
+        "objectName": "Platform1_n"
+      },
+      {
+        "objectName": "Platform2_n"
       }
     ]
   },
@@ -3167,6 +3449,35 @@
             "Animation",
             "=",
             "\"piesc\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "DeathZone",
+            "AdventureBoy",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level3\"",
+            ""
           ]
         }
       ]
