@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -1477,30 +1477,6 @@
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
-        "file": "Untitled_Artwork 2_n.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Untitled_Artwork 2_n.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Untitled_Artwork 3_n.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Untitled_Artwork 3_n.png",
-=======
         "file": "assets/Flat Heart Empty.png",
         "kind": "image",
         "metadata": "",
@@ -2354,18 +2330,11 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Star_Filled.png",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
-        "file": "Untitled_Artwork 5_n.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Untitled_Artwork 5_n.png",
-=======
         "file": "assets/Star_Outline.png",
         "kind": "image",
         "metadata": "",
@@ -2388,7 +2357,6 @@
         "kind": "image",
         "metadata": "",
         "name": "..\\..\\..\\..\\..\\Users\\Adam\\Desktop\\Star_Filled.png",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       }
