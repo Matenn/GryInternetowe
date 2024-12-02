@@ -1477,6 +1477,7 @@
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "Untitled_Artwork 2_n.png",
         "kind": "image",
         "metadata": "",
@@ -1499,15 +1500,895 @@
         "kind": "image",
         "metadata": "",
         "name": "Untitled_Artwork 3_n.png",
+=======
+        "file": "assets/Flat Heart Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Heart Empty.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/c0bac0102b6467c3f428f093a162ad8aedc069b2bf3cbe65f344353c3695ecdf_Flat Heart Empty.png",
+          "name": "Flat Heart Empty.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Heart Filled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Heart Filled.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/4158f811cf0bb821a58f98d8cb78f2257ee590210091ab56b46703e94044ee7a_Flat Heart Filled.png",
+          "name": "Flat Heart Filled.png"
+        }
+      },
+      {
+        "file": "breeze-of-blood-122253.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "breeze-of-blood-122253.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "footstep cut.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "footstep cut.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "footstep cut 2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "footstep cut 2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/611cb08010da87fc73b83afc43a942c7eab4dff053c2d0ba9a91aa15f0c69959_vortex_1.png",
+          "name": "vortex_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e38e101fa81eba483cda57d5cc4e93e169c5991c16c5c14ab4ea1d7825f9241c_vortex_10.png",
+          "name": "vortex_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/667de4e22d880d68349e45fd7b02bca46a23fe8fc27a046eca6298f0bdae92fd_vortex_11.png",
+          "name": "vortex_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5bff3dbfbcfbd9c9e4eb653b2c4c99b1684c18428f41a7019204b9ec5e35b4ac_vortex_12.png",
+          "name": "vortex_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2b84f8c7e7d4c6550471c66d3cf6b30db4b0493403b82de487aa3f12d43c0ee5_vortex_13.png",
+          "name": "vortex_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9ce742307c8cc3515462171d6816e7dd717dfd04a1a9a918e9cfb1045d721768_vortex_14.png",
+          "name": "vortex_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/4c597b22254a8daead297c89dd9576a02f367fb1e408604bcb639f6f79279e92_vortex_15.png",
+          "name": "vortex_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/59b662231db4aa317ce34a6991821f45f1488970177494de77f03222ced72fc6_vortex_16.png",
+          "name": "vortex_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2f15305ac0c8ff95d4b4927947c636e197d4b80fd25d5046c51d0b44131cf525_vortex_17.png",
+          "name": "vortex_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/cf166176b9c555031ee84e3d9fdc3ddc5072411e462b5643b1daa327540c67ec_vortex_18.png",
+          "name": "vortex_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b76fe4954c164e0f4d02e96871c59f9817e2a8bf198e582872a6238a8d32ea38_vortex_19.png",
+          "name": "vortex_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3973f4c920479f4f3b0f1d3b61b689be40b5af584b72faa8a59e2485b6ff953b_vortex_2.png",
+          "name": "vortex_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7ddee18b7b7d137c478700ceddd401b704996acc3f0d40f3d5eed3e93cebdf6e_vortex_20.png",
+          "name": "vortex_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/86abe520b82e15c1a65b7a8443701f4632e78f2109a73f56b3c71c371c9e8a3d_vortex_21.png",
+          "name": "vortex_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/05570d538c84a0cbb0e1415346783d3b89cfad7ddb8e6d8fc25f8bcec64516cb_vortex_22.png",
+          "name": "vortex_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7e28abb3cd495a59f5564720106f390ec70228e6661af3020f3b7061f0dc8de3_vortex_23.png",
+          "name": "vortex_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/854de8a117de31e9fe0a2751c4b52f208edc54b02a4835afb82a06c7790dd4c1_vortex_24.png",
+          "name": "vortex_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/bc3d47801fb782019c7da7adb2b717f0cd9a5ab5567bafd9150db185f1f5a703_vortex_25.png",
+          "name": "vortex_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/29666a3413b6b1f0310568b750593d0c5de4d95dab99154b2e4fcbc837933b49_vortex_26.png",
+          "name": "vortex_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/8a685a0f13143c51e7a562360657097047dc54f3dfed9d62db5a8f5cc0b5050c_vortex_27.png",
+          "name": "vortex_27.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e78a57456239bdd645869757133891c172df1cd1225d30ab38b75e7e6d7d806f_vortex_28.png",
+          "name": "vortex_28.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7efc3124196f86069945193150788f88dc545e149d74352ff94692493b16bffa_vortex_29.png",
+          "name": "vortex_29.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0364b14ea189a063167279cc1cf862dabbc7e1e69c42cfcabc2b2a0a72227b4f_vortex_3.png",
+          "name": "vortex_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b652167f0a783c4a0215692f56c72bba2f90784c0e199fed5848f6bcae6e40ea_vortex_30.png",
+          "name": "vortex_30.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/442af1f0e7961b0219a8ca488d1c8ff7d749f5c8fa2780154a500ed3f7d04428_vortex_31.png",
+          "name": "vortex_31.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/07d69b78d3ef1d6c57797d609dff652ac11a493074a648b0b7147d4429d9ef85_vortex_32.png",
+          "name": "vortex_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/afa19009af5a5ed0030a58aae56cd290b31eba33ae52906f7300c83138933cdf_vortex_33.png",
+          "name": "vortex_33.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ce97053f0fdb11c44cec33bce50266aeffb3bd51a5bc3bb04c515250202d759e_vortex_34.png",
+          "name": "vortex_34.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_35.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2c18a4ef886300059d0390e5d8a7567836aaab3972eb224fa77a0ecf1c2937dd_vortex_35.png",
+          "name": "vortex_35.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ded06cd00d0ea78f19584604be54d02946a8c36af018716b1367434c10f8123e_vortex_36.png",
+          "name": "vortex_36.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/06af072a793549c6cbd55a6cfe17d9e3cb80c15f70c815db65737bad5de55e46_vortex_37.png",
+          "name": "vortex_37.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a58ec6b3b124f0710450d1d856f01b67346236f82e7082c239d25f4e2cc47b88_vortex_38.png",
+          "name": "vortex_38.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_39.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/63a09c01839611140dbf47747c550a1445f309636d1cb1aa3fba77fbc08322f5_vortex_39.png",
+          "name": "vortex_39.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f4ca9edf4f191ad1633d5041d36e641467c24fc73d9239b0ab8f1f3109f7b09a_vortex_4.png",
+          "name": "vortex_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_40.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/8180332471a773822b36a17c7e1f4ce09b9bfc011f52ab59a8bcdf45d73dc741_vortex_40.png",
+          "name": "vortex_40.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/19796a518a249622d1117b723396289a622e640b43f3a5eb061899c999d0384c_vortex_41.png",
+          "name": "vortex_41.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5d211352698fcb82a7efe1ab078e903deec4f594e8edde78fe68bb07a6972600_vortex_42.png",
+          "name": "vortex_42.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/da0913896f4b90f539ef3d042c6b770cef87d8ad97869e96d771b622e9bb9462_vortex_43.png",
+          "name": "vortex_43.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ef476162bade758e38ccce623679e1c10143a37949e980e6285bb170efc305e1_vortex_44.png",
+          "name": "vortex_44.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_45.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9cd7b7f33daf871794d0eb4909782479ca4a23b7e0a60fabd4b59d50ff3c8675_vortex_45.png",
+          "name": "vortex_45.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_46.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/6239912d037d9d687332386e4bf26e3981cbe38482e18e46016144865abc5c86_vortex_46.png",
+          "name": "vortex_46.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_47.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c428a2cb9f314141d4577094430460d01428fa64d596514bc9871b2a2588d7d8_vortex_47.png",
+          "name": "vortex_47.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_48.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/6c8bf6bdbc82b3bc9ac21b2496d7c8c20f84fe1e05f77e45e247999702b435bc_vortex_48.png",
+          "name": "vortex_48.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_49.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/00c2f4728b57e7673dc66d81b1585a8380ec8e671c1a141fe91041148a773190_vortex_49.png",
+          "name": "vortex_49.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b43ea420226c4b9346f3a768eb5742f2ae52a983b5ed49f3acb5ceeaf6920e4c_vortex_5.png",
+          "name": "vortex_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_50.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b32c392127aa6782e595d16ab5e4dd46f3ced4195844b0596188888ba5c8e67f_vortex_50.png",
+          "name": "vortex_50.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_51.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d05f800980d3abeb4a01918b6ca3c4ef76b461537d3483c65fd373238041865c_vortex_51.png",
+          "name": "vortex_51.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_52.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/4013db674d08be2cf77f91a84f572fc1c3b2e2c192a7ff8d7df9232f4e500ead_vortex_52.png",
+          "name": "vortex_52.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_53.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/86cc7ce017e5dedc14ae68a3da8c7cc67f0191532d93b0a3f722419e3d36852d_vortex_53.png",
+          "name": "vortex_53.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_54.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b45f09a6380452b9e737596bc8e8f3e4666b47f74117d6c7748efd795c2c2704_vortex_54.png",
+          "name": "vortex_54.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_55.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3c57e731632477e4dceb476affb0db476d4bd6fec171b2ccaedabaf671f0d2c1_vortex_55.png",
+          "name": "vortex_55.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_56.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e5981e3db629e1bd7c98812feaa522714b92f337f7b853a538f10a38bb5f54a7_vortex_56.png",
+          "name": "vortex_56.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_57.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3ef563ce70a368483615f354f99af834db5a5195f719ca078adc540260a906f3_vortex_57.png",
+          "name": "vortex_57.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_58.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/47f18199d6a107b4aea324ee22d2c8bfc0fc1cd8ed4a3fb86c6e2dbdd9c1a1be_vortex_58.png",
+          "name": "vortex_58.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_59.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/56460d8e7e1c70e8fa19d268f3359fc56af74d2e509c0b524b578bd10f2aab70_vortex_59.png",
+          "name": "vortex_59.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/4735163b8bed92382e37256a794ca62846b3acbe2d3bea13535a8e1fac504992_vortex_6.png",
+          "name": "vortex_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_60.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9e8695a8be261bd90cc8433b2940ba0ea4339e2632146605858468f666ece737_vortex_60.png",
+          "name": "vortex_60.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_61.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/611cb08010da87fc73b83afc43a942c7eab4dff053c2d0ba9a91aa15f0c69959_vortex_61.png",
+          "name": "vortex_61.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/6c98bd6244f5ec877ef90e6b0fa5536da1b92a0a692ea977aee6aace810fbe79_vortex_7.png",
+          "name": "vortex_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/52e7befc6247de08910fda7fa563ba130bb08b4fed62bc56e137ebe8279c2c3e_vortex_8.png",
+          "name": "vortex_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/vortex_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vortex_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/144372c17a67f81970d7eca4a5314a6d5bef3441e68e4eef621703cd99a16d62_vortex_9.png",
+          "name": "vortex_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Star_Filled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Star_Filled.png",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "Untitled_Artwork 5_n.png",
         "kind": "image",
         "metadata": "",
         "name": "Untitled_Artwork 5_n.png",
+=======
+        "file": "assets/Star_Outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Star_Outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../../Users/Adam/Desktop/Star_Outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\..\\Users\\Adam\\Desktop\\Star_Outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../../Users/Adam/Desktop/Star_Filled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\..\\Users\\Adam\\Desktop\\Star_Filled.png",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": false
       }
@@ -1535,6 +2416,11 @@
           "value": 20
         }
       ]
+    },
+    {
+      "name": "StarsLevel1",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -1557,6 +2443,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"

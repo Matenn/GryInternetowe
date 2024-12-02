@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.27962265218393856,
+    "zoomFactor": 0.6846283916654077,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -753,67 +753,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 128,
+      "depth": 303,
+      "height": 320,
       "keepRatio": true,
       "layer": "",
-      "name": "Star1Level1",
-      "persistentUuid": "ae98e5dd-d987-4006-87f6-c10d07cbc6fe",
-      "width": 128,
-      "x": 672,
-      "y": -608,
-      "zOrder": 34,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Star2Level1",
-      "persistentUuid": "2752dc43-5d16-4427-a253-060e24c97a46",
-      "width": 128,
-      "x": 864,
-      "y": -608,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Star3Level1",
-      "persistentUuid": "1c31c2bb-1749-488f-830f-5d8fa70208e0",
-      "width": 128,
-      "x": 864,
-      "y": -608,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 124,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Star3Level1",
-      "persistentUuid": "b0170862-04ce-48df-8492-fdd7080eadaf",
-      "width": 124,
-      "x": 1060,
-      "y": -604,
-      "zOrder": 37,
+      "name": "StarsBarLevel1",
+      "persistentUuid": "58716d24-d122-487d-8c75-a7c96f593418",
+      "width": 391,
+      "x": 743,
+      "y": -708,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2823,361 +2772,43 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "b5dcf215c5236b5a82112c37b624f2122e94ae5bce6c563bae0a0e6c7921cb62",
-      "name": "Star1Level1",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "assetStoreId": "c807d51d4bab0016401aef4d64d10d137f5ac8738ffa15865e1bc81435b9720b",
+      "name": "StarsBarLevel1",
+      "type": "TiledUnitsBar::TiledUnitsBar",
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "Outline",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Star_Outline.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 60
-                      },
-                      {
-                        "x": 0,
-                        "y": 60
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
+      "behaviors": [],
+      "content": {
+        "UnitWidth": 128,
+        "HideBackground": true,
+        "ShowBackground": false,
+        "InitialValue": 0,
+        "BarLeftPadding": 0,
+        "BarRightPadding": 0,
+        "MaxValue": 3
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 0,
+          "height": 128,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "..\\..\\..\\..\\..\\Users\\Adam\\Desktop\\Star_Outline.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 128
         },
-        {
-          "name": "Filled",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Star_Filled.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 60
-                      },
-                      {
-                        "x": 0,
-                        "y": 60
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "b5dcf215c5236b5a82112c37b624f2122e94ae5bce6c563bae0a0e6c7921cb62",
-      "name": "Star2Level1",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "Outline",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Star_Outline.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 60
-                      },
-                      {
-                        "x": 0,
-                        "y": 60
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
+        "Bar": {
+          "height": 128,
+          "texture": "..\\..\\..\\..\\..\\Users\\Adam\\Desktop\\Star_Outline.png",
+          "width": 128
         },
-        {
-          "name": "Filled",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Star_Filled.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 60
-                      },
-                      {
-                        "x": 0,
-                        "y": 60
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
+        "FillBar": {
+          "height": 128,
+          "texture": "..\\..\\..\\..\\..\\Users\\Adam\\Desktop\\Star_Filled.png",
+          "width": 128
         }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "b5dcf215c5236b5a82112c37b624f2122e94ae5bce6c563bae0a0e6c7921cb62",
-      "name": "Star3Level1",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "Outline",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Star_Outline.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 60
-                      },
-                      {
-                        "x": 0,
-                        "y": 60
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Filled",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Star_Filled.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 0
-                      },
-                      {
-                        "x": 60,
-                        "y": 60
-                      },
-                      {
-                        "x": 0,
-                        "y": 60
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3295,13 +2926,7 @@
         "objectName": "PlayLevel1"
       },
       {
-        "objectName": "Star1Level1"
-      },
-      {
-        "objectName": "Star2Level1"
-      },
-      {
-        "objectName": "Star3Level1"
+        "objectName": "StarsBarLevel1"
       }
     ]
   },
@@ -3371,6 +2996,17 @@
             "1",
             "",
             "Settings.Music",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+          },
+          "parameters": [
+            "StarsBarLevel1",
+            "=",
+            "StarsLevel1",
             ""
           ]
         }
