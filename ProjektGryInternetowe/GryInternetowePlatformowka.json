@@ -2371,10 +2371,28 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Adventure Boy_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adventure Boy_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Untitled_Artwork 2_n.png",
         "kind": "image",
         "metadata": "",
         "name": "Untitled_Artwork 2_n.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "square.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "square.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2394,6 +2412,26 @@
         "metadata": "",
         "name": "Untitled_Artwork 7_n.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "punch.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "punch.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "swish.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "swish.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
