@@ -2278,6 +2278,78 @@
         "name": "enemy4.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "bee_animated/frame_02_delay-0.04s.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bee_animated/frame_02_delay-0.04s.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "snail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snail.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled_Artwork 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled_Artwork 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled_Artwork 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled_Artwork 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled_Artwork 19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled_Artwork 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Menu.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2305,9 +2377,30 @@
       ]
     },
     {
-      "name": "StarsLevel1",
-      "type": "number",
-      "value": 0
+      "name": "Save",
+      "type": "structure",
+      "children": [
+        {
+          "name": "StarsLevel1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "StarsLevel2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "StarsLevel3",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "StarsLevel4",
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "layouts": [
@@ -2330,6 +2423,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"

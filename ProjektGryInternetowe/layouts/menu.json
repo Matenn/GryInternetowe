@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.22169247275005283,
+    "zoomFactor": 0.3192894589690208,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -390,8 +390,8 @@
       "layer": "",
       "name": "NextLevel1",
       "persistentUuid": "be2a68b4-3e8e-494c-b626-58e4f5f466ab",
-      "width": 146,
-      "x": 1696,
+      "width": 160,
+      "x": 1664,
       "y": -768,
       "zOrder": 16,
       "numberProperties": [],
@@ -407,8 +407,8 @@
       "layer": "",
       "name": "NextLevel2",
       "persistentUuid": "268a9c9c-3cb9-4dfc-b601-9d321f8a9774",
-      "width": 144,
-      "x": 4016,
+      "width": 160,
+      "x": 4000,
       "y": -768,
       "zOrder": 17,
       "numberProperties": [],
@@ -424,9 +424,9 @@
       "layer": "",
       "name": "NextLevel3",
       "persistentUuid": "c6c8d7f3-f190-4325-843f-1552df9ea034",
-      "width": 146,
-      "x": 6336,
-      "y": -768,
+      "width": 160,
+      "x": 6304,
+      "y": -764,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -609,8 +609,8 @@
       "layer": "",
       "name": "OrangeLeaves",
       "persistentUuid": "14e83772-8641-4677-8b3f-f4c36708ffc6",
-      "width": 928,
-      "x": 2880,
+      "width": 896,
+      "x": 2848,
       "y": -1120,
       "zOrder": 22,
       "numberProperties": [],
@@ -626,7 +626,7 @@
       "name": "Poziom2",
       "persistentUuid": "23c7eb51-4454-44c1-b247-fff0579eadf9",
       "width": 0,
-      "x": 3040,
+      "x": 2976,
       "y": -1088,
       "zOrder": 28,
       "numberProperties": [],
@@ -643,8 +643,8 @@
       "name": "OrangeLeaves",
       "persistentUuid": "770f73d5-e568-446e-ab74-a139549305d0",
       "width": 928,
-      "x": 5152,
-      "y": -960,
+      "x": 5148,
+      "y": -1120,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -659,8 +659,8 @@
       "name": "Poziom3",
       "persistentUuid": "48bef936-e980-4a91-a1df-6660db3759a9",
       "width": 0,
-      "x": 5312,
-      "y": -928,
+      "x": 5308,
+      "y": -1088,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -677,7 +677,7 @@
       "persistentUuid": "9940bc7a-3f7d-4ac5-a983-8761436ae161",
       "width": 928,
       "x": 7456,
-      "y": -960,
+      "y": -1120,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -693,7 +693,7 @@
       "persistentUuid": "1a40ac40-931c-4f9f-b2bc-61361f71e3bc",
       "width": 0,
       "x": 7616,
-      "y": -928,
+      "y": -1088,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -763,6 +763,427 @@
       "x": 743,
       "y": -708,
       "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 484,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "049f8d0d-bd07-4dad-b6e1-65063998568a",
+      "width": 484,
+      "x": 2912,
+      "y": -1028,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 224,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite7",
+      "persistentUuid": "a1ccec97-60cf-4e60-bc00-7c22cd3218ca",
+      "width": 224,
+      "x": 3392,
+      "y": -836,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite7",
+      "persistentUuid": "fd6adaf9-5731-496b-a742-2879bb7afc02",
+      "width": 320,
+      "x": 3424,
+      "y": -1028,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "7d0ac323-2399-4f61-b3a6-43103f71ad28",
+      "width": 192,
+      "x": 3040,
+      "y": -932,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StarsBarLevel2",
+      "persistentUuid": "04fb01b5-9eb4-4d1e-bfaf-3a6739e36b9b",
+      "width": 384,
+      "x": 3104,
+      "y": -576,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlayLevel2",
+      "persistentUuid": "f02c81f5-49a5-42a1-9bb5-0dddf43c3053",
+      "width": 0,
+      "x": 3136,
+      "y": -416,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite10",
+      "persistentUuid": "580dc980-7896-4630-9008-e3e3a6448ba7",
+      "width": 320,
+      "x": 5212,
+      "y": -992,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 292,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite11",
+      "persistentUuid": "46cd4b6d-f1ed-4fdc-8b04-577f0c24ec73",
+      "width": 292,
+      "x": 5468,
+      "y": -900,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 420,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite12",
+      "persistentUuid": "ad64d262-6d04-408d-a0fe-a8e96dfd43a5",
+      "width": 420,
+      "x": 5660,
+      "y": -1024,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 148,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite9",
+      "persistentUuid": "0a51b4c5-d93b-43c5-8901-a0cd5caa6903",
+      "width": 263,
+      "x": 5493,
+      "y": -948,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 164,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "5a4af3db-31e8-478b-ad1e-441eea90fb41",
+      "width": 164,
+      "x": 5816,
+      "y": -960,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StarsBarLevel3",
+      "persistentUuid": "36720c68-66ef-4afb-a302-f730c0eb7b83",
+      "width": 384,
+      "x": 5408,
+      "y": -608,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlayLevel3",
+      "persistentUuid": "167b58f5-9e70-4d9b-935f-e708d74f17f0",
+      "width": 0,
+      "x": 5433,
+      "y": -416,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 324,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite14",
+      "persistentUuid": "6ea845a4-0608-4198-9c77-2cd462c9c212",
+      "width": 324,
+      "x": 8032,
+      "y": -1024,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite15",
+      "persistentUuid": "76252262-a31b-457f-a087-fa253cae0126",
+      "width": 352,
+      "x": 7520,
+      "y": -992,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 292,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite16",
+      "persistentUuid": "765abf9d-221f-4afe-a3aa-64ea32835ada",
+      "width": 292,
+      "x": 7872,
+      "y": -900,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 224,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite4",
+      "persistentUuid": "6eb0331a-b34b-4113-95e9-6f51b2dc3fd0",
+      "width": 224,
+      "x": 7648,
+      "y": -992,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 164,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "99a4f22a-955e-4fc3-8b0a-a794b87c309d",
+      "width": 164,
+      "x": 7904,
+      "y": -864,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StarsBarLevel4",
+      "persistentUuid": "d07eb2a1-7970-4e54-922e-2e46dd34809f",
+      "width": 384,
+      "x": 7744,
+      "y": -608,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlayLevel4",
+      "persistentUuid": "149d4eaf-4233-4070-86d4-3c93bdbf8cf5",
+      "width": 0,
+      "x": 7769,
+      "y": -416,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Menu",
+      "persistentUuid": "6cb2c6c6-9c5a-4f47-9961-f6b0b303c7ab",
+      "width": 128,
+      "x": 96,
+      "y": -384,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Transition",
+      "persistentUuid": "0c51b77a-ef92-42e4-8c9f-7f150be41690",
+      "width": 0,
+      "x": 896,
+      "y": -1344,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Menu",
+      "persistentUuid": "799d39d7-6e3d-4937-926c-bb6fb8bbafe4",
+      "width": 128,
+      "x": 2432,
+      "y": -384,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Menu",
+      "persistentUuid": "2ccfddcb-a37d-4ad5-81c7-95dcd8428237",
+      "width": 128,
+      "x": 4736,
+      "y": -384,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Menu",
+      "persistentUuid": "9302b2aa-1da4-4fa0-b802-6f629872620f",
+      "width": 128,
+      "x": 7040,
+      "y": -384,
+      "zOrder": 57,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2809,6 +3230,1248 @@
           "width": 128
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 102,
+                        "y": 868
+                      },
+                      {
+                        "x": 2453,
+                        "y": 868
+                      },
+                      {
+                        "x": 2453,
+                        "y": 1925
+                      },
+                      {
+                        "x": 102,
+                        "y": 1925
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 117,
+                        "y": 892
+                      },
+                      {
+                        "x": 2249,
+                        "y": 892
+                      },
+                      {
+                        "x": 2249,
+                        "y": 1870
+                      },
+                      {
+                        "x": 117,
+                        "y": 1870
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "snail.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 116,
+                        "y": 161
+                      },
+                      {
+                        "x": 2232,
+                        "y": 161
+                      },
+                      {
+                        "x": 2232,
+                        "y": 1544
+                      },
+                      {
+                        "x": 116,
+                        "y": 1544
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bee_animated/frame_02_delay-0.04s.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 502,
+                        "y": 55
+                      },
+                      {
+                        "x": 1388,
+                        "y": 55
+                      },
+                      {
+                        "x": 1388,
+                        "y": 1007
+                      },
+                      {
+                        "x": 502,
+                        "y": 1007
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "c807d51d4bab0016401aef4d64d10d137f5ac8738ffa15865e1bc81435b9720b",
+      "name": "StarsBarLevel2",
+      "type": "TiledUnitsBar::TiledUnitsBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "UnitWidth": 128,
+        "HideBackground": true,
+        "ShowBackground": false,
+        "InitialValue": 0,
+        "BarLeftPadding": 0,
+        "BarRightPadding": 0,
+        "MaxValue": 3
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 0,
+          "height": 128,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\Star_Outline.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 128
+        },
+        "Bar": {
+          "height": 128,
+          "texture": "assets\\Star_Outline.png",
+          "width": 128
+        },
+        "FillBar": {
+          "height": 128,
+          "texture": "assets\\Star_Filled.png",
+          "width": 128
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "889b4fcc7396cd7435513d4c5b887b0b18999fe5bbfbc4474baa78c46c3a112d",
+      "name": "PlayLevel2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "BlinkEffect",
+          "doubleParameters": {
+            "alpha": 1,
+            "blue": 1,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonObjectEffectTween",
+          "type": "ButtonStates::ButtonObjectEffectTween",
+          "ButtonFSM": "ButtonFSM",
+          "Effect": "Effect",
+          "EffectName": "BlinkEffect",
+          "EffectProperty": "brightness",
+          "IdleValue": 1,
+          "FocusedValue": 1.25,
+          "PressedValue": 1.75,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "FadeInDuration": 0.125,
+          "FadeOutDuration": 0.5,
+          "PreviousState": "Idle",
+          "TweenInitialValue": 0,
+          "TweenTargetedValue": 0,
+          "TweenTime": 0,
+          "TweenState": "NoTween",
+          "EffectValue": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Large Play Button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 327,
+                        "y": 0
+                      },
+                      {
+                        "x": 327,
+                        "y": 122
+                      },
+                      {
+                        "x": 0,
+                        "y": 122
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "889b4fcc7396cd7435513d4c5b887b0b18999fe5bbfbc4474baa78c46c3a112d",
+      "name": "PlayLevel3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "BlinkEffect",
+          "doubleParameters": {
+            "alpha": 1,
+            "blue": 1,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonObjectEffectTween",
+          "type": "ButtonStates::ButtonObjectEffectTween",
+          "ButtonFSM": "ButtonFSM",
+          "Effect": "Effect",
+          "EffectName": "BlinkEffect",
+          "EffectProperty": "brightness",
+          "IdleValue": 1,
+          "FocusedValue": 1.25,
+          "PressedValue": 1.75,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "FadeInDuration": 0.125,
+          "FadeOutDuration": 0.5,
+          "PreviousState": "Idle",
+          "TweenInitialValue": 0,
+          "TweenTargetedValue": 0,
+          "TweenTime": 0,
+          "TweenState": "NoTween",
+          "EffectValue": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Large Play Button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 327,
+                        "y": 0
+                      },
+                      {
+                        "x": 327,
+                        "y": 122
+                      },
+                      {
+                        "x": 0,
+                        "y": 122
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "889b4fcc7396cd7435513d4c5b887b0b18999fe5bbfbc4474baa78c46c3a112d",
+      "name": "PlayLevel4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "BlinkEffect",
+          "doubleParameters": {
+            "alpha": 1,
+            "blue": 1,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonObjectEffectTween",
+          "type": "ButtonStates::ButtonObjectEffectTween",
+          "ButtonFSM": "ButtonFSM",
+          "Effect": "Effect",
+          "EffectName": "BlinkEffect",
+          "EffectProperty": "brightness",
+          "IdleValue": 1,
+          "FocusedValue": 1.25,
+          "PressedValue": 1.75,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "FadeInDuration": 0.125,
+          "FadeOutDuration": 0.5,
+          "PreviousState": "Idle",
+          "TweenInitialValue": 0,
+          "TweenTargetedValue": 0,
+          "TweenTime": 0,
+          "TweenState": "NoTween",
+          "EffectValue": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Large Play Button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 327,
+                        "y": 0
+                      },
+                      {
+                        "x": 327,
+                        "y": 122
+                      },
+                      {
+                        "x": 0,
+                        "y": 122
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite10",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 7_n.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 803
+                      },
+                      {
+                        "x": 2373,
+                        "y": 803
+                      },
+                      {
+                        "x": 2373,
+                        "y": 2441
+                      },
+                      {
+                        "x": 0,
+                        "y": 2441
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite11",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 3_n.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 908
+                      },
+                      {
+                        "x": 2404,
+                        "y": 908
+                      },
+                      {
+                        "x": 2404,
+                        "y": 1865
+                      },
+                      {
+                        "x": 0,
+                        "y": 1865
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite12",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 2_n.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 236,
+                        "y": 885
+                      },
+                      {
+                        "x": 2209,
+                        "y": 885
+                      },
+                      {
+                        "x": 2209,
+                        "y": 2473
+                      },
+                      {
+                        "x": 236,
+                        "y": 2473
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "c807d51d4bab0016401aef4d64d10d137f5ac8738ffa15865e1bc81435b9720b",
+      "name": "StarsBarLevel3",
+      "type": "TiledUnitsBar::TiledUnitsBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "UnitWidth": 128,
+        "HideBackground": true,
+        "ShowBackground": false,
+        "InitialValue": 0,
+        "BarLeftPadding": 0,
+        "BarRightPadding": 0,
+        "MaxValue": 3
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 0,
+          "height": 128,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\Star_Outline.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 128
+        },
+        "Bar": {
+          "height": 128,
+          "texture": "assets\\Star_Outline.png",
+          "width": 128
+        },
+        "FillBar": {
+          "height": 128,
+          "texture": "assets\\Star_Filled.png",
+          "width": 128
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite13",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 83,
+                        "y": 950
+                      },
+                      {
+                        "x": 2403,
+                        "y": 950
+                      },
+                      {
+                        "x": 2403,
+                        "y": 2422
+                      },
+                      {
+                        "x": 83,
+                        "y": 2422
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite14",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 313,
+                        "y": 885
+                      },
+                      {
+                        "x": 2209,
+                        "y": 885
+                      },
+                      {
+                        "x": 2209,
+                        "y": 2473
+                      },
+                      {
+                        "x": 313,
+                        "y": 2473
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite15",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 799
+                      },
+                      {
+                        "x": 2372,
+                        "y": 799
+                      },
+                      {
+                        "x": 2372,
+                        "y": 2441
+                      },
+                      {
+                        "x": 0,
+                        "y": 2441
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite16",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled_Artwork 19.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 117,
+                        "y": 892
+                      },
+                      {
+                        "x": 2249,
+                        "y": 892
+                      },
+                      {
+                        "x": 2249,
+                        "y": 1870
+                      },
+                      {
+                        "x": 117,
+                        "y": 1870
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "c807d51d4bab0016401aef4d64d10d137f5ac8738ffa15865e1bc81435b9720b",
+      "name": "StarsBarLevel4",
+      "type": "TiledUnitsBar::TiledUnitsBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "UnitWidth": 128,
+        "HideBackground": true,
+        "ShowBackground": false,
+        "InitialValue": 0,
+        "BarLeftPadding": 0,
+        "BarRightPadding": 0,
+        "MaxValue": 3
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 0,
+          "height": 128,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\Star_Outline.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 128
+        },
+        "Bar": {
+          "height": 128,
+          "texture": "assets\\Star_Outline.png",
+          "width": 128
+        },
+        "FillBar": {
+          "height": 128,
+          "texture": "assets\\Star_Filled.png",
+          "width": 128
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "903d374b9fd0edfd9e9b0bca311799884c7b24b350b18b5897b1caab8e008bec",
+      "name": "Menu",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonObjectEffectTween",
+          "type": "ButtonStates::ButtonObjectEffectTween",
+          "ButtonFSM": "ButtonFSM",
+          "Effect": "Effect",
+          "EffectName": "BlinkEffect",
+          "EffectProperty": "brightness",
+          "IdleValue": 1,
+          "FocusedValue": 1.25,
+          "PressedValue": 1.75,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "FadeInDuration": 0.125,
+          "FadeOutDuration": 0.5,
+          "PreviousState": "Idle",
+          "TweenInitialValue": 0,
+          "TweenTargetedValue": 0,
+          "TweenTime": 0,
+          "TweenState": "NoTween",
+          "EffectValue": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Menu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 114,
+                        "y": 0
+                      },
+                      {
+                        "x": 114,
+                        "y": 119
+                      },
+                      {
+                        "x": 0,
+                        "y": 119
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Transition",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Progress": 0,
+          "Duration": 0,
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2840,6 +4503,18 @@
       },
       {
         "objectName": "Poziom2"
+      },
+      {
+        "objectName": "NewSprite6"
+      },
+      {
+        "objectName": "NewSprite7"
+      },
+      {
+        "objectName": "NewSprite8"
+      },
+      {
+        "objectName": "NewSprite9"
       },
       {
         "objectName": "Poziom3"
@@ -2926,7 +4601,52 @@
         "objectName": "PlayLevel1"
       },
       {
+        "objectName": "PlayLevel2"
+      },
+      {
+        "objectName": "PlayLevel3"
+      },
+      {
+        "objectName": "PlayLevel4"
+      },
+      {
         "objectName": "StarsBarLevel1"
+      },
+      {
+        "objectName": "StarsBarLevel2"
+      },
+      {
+        "objectName": "StarsBarLevel3"
+      },
+      {
+        "objectName": "StarsBarLevel4"
+      },
+      {
+        "objectName": "NewSprite13"
+      },
+      {
+        "objectName": "NewSprite14"
+      },
+      {
+        "objectName": "NewSprite15"
+      },
+      {
+        "objectName": "NewSprite10"
+      },
+      {
+        "objectName": "NewSprite11"
+      },
+      {
+        "objectName": "NewSprite12"
+      },
+      {
+        "objectName": "NewSprite16"
+      },
+      {
+        "objectName": "Menu"
+      },
+      {
+        "objectName": "Transition"
       }
     ]
   },
@@ -3006,7 +4726,40 @@
           "parameters": [
             "StarsBarLevel1",
             "=",
-            "StarsLevel1",
+            "Save.StarsLevel1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+          },
+          "parameters": [
+            "StarsBarLevel2",
+            "=",
+            "Save.StarsLevel2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+          },
+          "parameters": [
+            "StarsBarLevel3",
+            "=",
+            "Save.StarsLevel3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+          },
+          "parameters": [
+            "StarsBarLevel4",
+            "=",
+            "Save.StarsLevel4",
             ""
           ]
         }
@@ -3695,6 +5448,65 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "Menu",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "0.3",
+            "\"Flash\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -3829,6 +5641,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
     },
     {
       "name": "Flippable",

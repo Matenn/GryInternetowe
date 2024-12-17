@@ -7054,7 +7054,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "StarsLevel1",
+            "Save.StarsLevel1",
             "+",
             "1"
           ]
@@ -7091,7 +7091,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "StarsLevel1",
+                "Save.StarsLevel1",
                 "+",
                 "1"
               ]
