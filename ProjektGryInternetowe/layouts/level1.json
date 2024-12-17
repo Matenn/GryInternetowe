@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25314140012986325,
+    "zoomFactor": 0.27050126039625677,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -163,8 +163,8 @@
       "name": "Player",
       "persistentUuid": "38342398-3d0d-455a-a88a-0e442cff2e0d",
       "width": 121,
-      "x": 205,
-      "y": 651,
+      "x": 186,
+      "y": 667,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -3843,16 +3843,16 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "Idle",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.5,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Untitled_Artwork 8.png",
+                  "image": "enemy2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3868,19 +3868,103 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 231,
-                        "y": 604
+                        "x": 99,
+                        "y": 689
                       },
                       {
-                        "x": 1979,
-                        "y": 604
+                        "x": 1894,
+                        "y": 689
                       },
                       {
-                        "x": 1979,
+                        "x": 1894,
                         "y": 1440
                       },
                       {
-                        "x": 231,
+                        "x": 99,
+                        "y": 1440
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.18,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 99,
+                        "y": 689
+                      },
+                      {
+                        "x": 1894,
+                        "y": 689
+                      },
+                      {
+                        "x": 1894,
+                        "y": 1440
+                      },
+                      {
+                        "x": 99,
+                        "y": 1440
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 99,
+                        "y": 689
+                      },
+                      {
+                        "x": 1894,
+                        "y": 689
+                      },
+                      {
+                        "x": 1894,
+                        "y": 1440
+                      },
+                      {
+                        "x": 99,
                         "y": 1440
                       }
                     ]
@@ -6750,6 +6834,17 @@
         },
         {
           "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Enemy",
+            "Animation",
+            "=",
+            "\"Jump\""
+          ]
+        },
+        {
+          "type": {
             "value": "PathfindingBehavior::SetDestination"
           },
           "parameters": [
@@ -6801,6 +6896,17 @@
           },
           "parameters": [
             "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Enemy",
+            "Animation",
+            "=",
+            "\"Jump\""
           ]
         },
         {
@@ -6861,7 +6967,18 @@
             "Pathfinding",
             "",
             "2870",
-            "650"
+            "630"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Enemy",
+            "Animation",
+            "=",
+            "\"Idle\""
           ]
         }
       ]
@@ -6899,7 +7016,18 @@
             "Pathfinding",
             "",
             "2400",
-            "665"
+            "655"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Enemy",
+            "Animation",
+            "=",
+            "\"Idle\""
           ]
         }
       ]
