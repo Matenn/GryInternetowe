@@ -32,6 +32,11 @@
       "name": "CoinsAvailable",
       "type": "number",
       "value": 3
+    },
+    {
+      "name": "TotalCoinsLevel1",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -6659,6 +6664,16 @@
                     "Settings.Sound",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "TotalCoinsLevel1",
+                    "+",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -7054,7 +7069,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Save.StarsLevel1",
+            "TotalCoinsLevel1",
             "+",
             "1"
           ]
@@ -7091,9 +7106,36 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Save.StarsLevel1",
+                "TotalCoinsLevel1",
                 "+",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TotalCoinsLevel1",
+                ">",
+                "Save.StarsLevel1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Save.StarsLevel1",
+                "=",
+                "TotalCoinsLevel1"
               ]
             }
           ]
