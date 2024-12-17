@@ -115,7 +115,7 @@
       "height": 691,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite2",
+      "name": "Platform2",
       "persistentUuid": "23b7b38d-c0b9-45cc-96aa-f498ce0067a4",
       "width": 691,
       "x": 1675,
@@ -132,7 +132,7 @@
       "height": 574,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite3",
+      "name": "Platform5",
       "persistentUuid": "884f9b0c-8f41-40ff-8615-18a868a75601",
       "width": 583,
       "x": 1124,
@@ -215,7 +215,7 @@
       "height": 600,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite5",
+      "name": "Platform6",
       "persistentUuid": "7f629484-0eb6-4bd8-bcf0-7c288c633b90",
       "width": 600,
       "x": 2146,
@@ -248,7 +248,7 @@
       "height": 411,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite7",
+      "name": "Platform10",
       "persistentUuid": "82dd9a61-d981-4ea4-a7b1-23dace06fba5",
       "width": 411,
       "x": 2785,
@@ -265,7 +265,7 @@
       "height": 977,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite8",
+      "name": "Platform7",
       "persistentUuid": "1bb79c49-4a5a-43d3-a1e1-0e7dfa81e356",
       "width": 977,
       "x": 3682,
@@ -282,7 +282,7 @@
       "height": 236,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite9",
+      "name": "Platform9",
       "persistentUuid": "25545a94-7598-4495-9365-eeb6ce818e52",
       "width": 236,
       "x": 3193,
@@ -299,7 +299,7 @@
       "height": 242,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite10",
+      "name": "Platform8",
       "persistentUuid": "c3352272-5f1c-4fc4-b245-344a0a59dbe0",
       "width": 242,
       "x": 3430,
@@ -654,7 +654,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "NewSprite2",
+      "name": "Platform2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -738,7 +738,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "NewSprite3",
+      "name": "Platform5",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3388,7 +3388,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "NewSprite5",
+      "name": "Platform6",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3542,7 +3542,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "NewSprite7",
+      "name": "Platform10",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3618,7 +3618,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "NewSprite8",
+      "name": "Platform7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3686,7 +3686,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "NewSprite9",
+      "name": "Platform9",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3754,7 +3754,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "NewSprite10",
+      "name": "Platform8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6281,13 +6281,13 @@
         "objectName": "Coin3"
       },
       {
-        "objectName": "NewSprite7"
+        "objectName": "Platform10"
       },
       {
-        "objectName": "NewSprite9"
+        "objectName": "Platform9"
       },
       {
-        "objectName": "NewSprite10"
+        "objectName": "Platform8"
       },
       {
         "objectName": "Platform3"
@@ -6296,10 +6296,10 @@
         "objectName": "Platform4"
       },
       {
-        "objectName": "NewSprite2"
+        "objectName": "Platform2"
       },
       {
-        "objectName": "NewSprite3"
+        "objectName": "Platform5"
       },
       {
         "objectName": "CoinsTxt"
@@ -6308,10 +6308,10 @@
         "objectName": "Player"
       },
       {
-        "objectName": "NewSprite5"
+        "objectName": "Platform6"
       },
       {
-        "objectName": "NewSprite8"
+        "objectName": "Platform7"
       },
       {
         "objectName": "Enemy"
@@ -6825,7 +6825,7 @@
           },
           "parameters": [
             "Enemy",
-            "NewSprite5",
+            "Platform6",
             "",
             "",
             ""
@@ -6891,7 +6891,7 @@
           },
           "parameters": [
             "Enemy",
-            "NewSprite7",
+            "Platform10",
             "",
             "",
             ""
