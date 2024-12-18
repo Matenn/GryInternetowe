@@ -2363,7 +2363,7 @@
         "file": "bee_animated/frame_00_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_00_delay-0.04s.png",
+        "name": "bee_animated/frame_00_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2371,15 +2371,7 @@
         "file": "bee_animated/frame_01_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_01_delay-0.04s.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "bee_animated/frame_02_delay-0.04s.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bee_animated\\frame_02_delay-0.04s.png",
+        "name": "bee_animated/frame_01_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2387,7 +2379,7 @@
         "file": "bee_animated/frame_03_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_03_delay-0.04s.png",
+        "name": "bee_animated/frame_03_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2395,7 +2387,7 @@
         "file": "bee_animated/frame_04_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_04_delay-0.04s.png",
+        "name": "bee_animated/frame_04_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2403,7 +2395,7 @@
         "file": "bee_animated/frame_05_delay-0.05s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_05_delay-0.05s.png",
+        "name": "bee_animated/frame_05_delay-0.05s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2411,7 +2403,7 @@
         "file": "bee_animated/frame_06_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_06_delay-0.04s.png",
+        "name": "bee_animated/frame_06_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2419,7 +2411,7 @@
         "file": "bee_animated/frame_07_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_07_delay-0.04s.png",
+        "name": "bee_animated/frame_07_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2427,7 +2419,7 @@
         "file": "bee_animated/frame_08_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_08_delay-0.04s.png",
+        "name": "bee_animated/frame_08_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2435,7 +2427,7 @@
         "file": "bee_animated/frame_09_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_09_delay-0.04s.png",
+        "name": "bee_animated/frame_09_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2443,7 +2435,7 @@
         "file": "bee_animated/frame_10_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_10_delay-0.04s.png",
+        "name": "bee_animated/frame_10_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2451,7 +2443,7 @@
         "file": "bee_animated/frame_11_delay-0.05s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_11_delay-0.05s.png",
+        "name": "bee_animated/frame_11_delay-0.05s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2459,7 +2451,7 @@
         "file": "bee_animated/frame_12_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_12_delay-0.04s.png",
+        "name": "bee_animated/frame_12_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2467,7 +2459,7 @@
         "file": "bee_animated/frame_13_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_13_delay-0.04s.png",
+        "name": "bee_animated/frame_13_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2475,7 +2467,7 @@
         "file": "bee_animated/frame_14_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_14_delay-0.04s.png",
+        "name": "bee_animated/frame_14_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2483,7 +2475,7 @@
         "file": "bee_animated/frame_15_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_15_delay-0.04s.png",
+        "name": "bee_animated/frame_15_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2491,7 +2483,7 @@
         "file": "bee_animated/frame_16_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_16_delay-0.04s.png",
+        "name": "bee_animated/frame_16_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2499,7 +2491,7 @@
         "file": "bee_animated/frame_17_delay-0.05s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_17_delay-0.05s.png",
+        "name": "bee_animated/frame_17_delay-0.05s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2507,7 +2499,7 @@
         "file": "bee_animated/frame_18_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_18_delay-0.04s.png",
+        "name": "bee_animated/frame_18_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2515,7 +2507,7 @@
         "file": "bee_animated/frame_19_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_19_delay-0.04s.png",
+        "name": "bee_animated/frame_19_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2523,7 +2515,7 @@
         "file": "bee_animated/frame_20_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_20_delay-0.04s.png",
+        "name": "bee_animated/frame_20_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2531,7 +2523,7 @@
         "file": "bee_animated/frame_21_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_21_delay-0.04s.png",
+        "name": "bee_animated/frame_21_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2539,7 +2531,7 @@
         "file": "bee_animated/frame_22_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_22_delay-0.04s.png",
+        "name": "bee_animated/frame_22_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2547,7 +2539,7 @@
         "file": "bee_animated/frame_23_delay-0.05s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_23_delay-0.05s.png",
+        "name": "bee_animated/frame_23_delay-0.05s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2555,7 +2547,7 @@
         "file": "bee_animated/frame_24_delay-0.04s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_24_delay-0.04s.png",
+        "name": "bee_animated/frame_24_delay-0.04s.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2563,7 +2555,7 @@
         "file": "bee_animated/frame_25_delay-s.png",
         "kind": "image",
         "metadata": "",
-        "name": "bee_animated\\frame_25_delay-s.png",
+        "name": "bee_animated/frame_25_delay-s.png",
         "smoothed": true,
         "userAdded": false
       }

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.13935037485557,
+    "zoomFactor": 0.2796226521839413,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -4354,7 +4354,24 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "BlinkEffect",
+          "doubleParameters": {
+            "alpha": 1,
+            "blue": 1,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "ButtonFSM",
@@ -5516,6 +5533,33 @@
             "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
+            "PlayLevel2",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level2\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
             "PlayLevel3",
             "ButtonFSM",
             ""
@@ -5530,6 +5574,33 @@
           "parameters": [
             "",
             "\"Level3\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "PlayLevel4",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level1\"",
             ""
           ]
         }
