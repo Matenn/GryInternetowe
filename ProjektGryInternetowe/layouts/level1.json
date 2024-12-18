@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5995738389111119,
+    "zoomFactor": 0.2531414001298638,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6999,7 +6999,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Coins",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7195,7 +7194,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attack",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
