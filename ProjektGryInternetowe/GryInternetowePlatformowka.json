@@ -2350,6 +2350,14 @@
         "name": "assets/Menu.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Untitled_Artwork 15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 15.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2419,6 +2427,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level2"
     }
   ],
   "externalEvents": [],
