@@ -18,10 +18,28 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1623839142937234,
+    "zoomFactor": 0.24175735580761773,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "PauseMenu",
+      "objects": [
+        {
+          "name": "PauseBackgorund"
+        },
+        {
+          "name": "ResumeText"
+        },
+        {
+          "name": "PauseExitText"
+        },
+        {
+          "name": "PausedText"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "CoinsCollected",
@@ -55,22 +73,6 @@
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Background",
-      "name": "BgLevel1",
-      "persistentUuid": "f8cc5619-fc4b-4fd0-bccb-04cab954a37f",
-      "width": 0,
-      "x": -188,
-      "y": -5,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -1563,7 +1565,7 @@
       "layer": "Background",
       "name": "DeathZone",
       "persistentUuid": "9a5101fc-a016-4dc4-996c-efe3c29c9415",
-      "width": 3827,
+      "width": 3456,
       "x": -407,
       "y": 2744,
       "zOrder": 14,
@@ -2376,6 +2378,105 @@
       "x": 3827,
       "y": -2029,
       "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1117,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "BgLevel2",
+      "persistentUuid": "b22a5691-9142-4569-80c7-6efc02e3ba41",
+      "width": 2118,
+      "x": -41,
+      "y": -17,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "DeathZone",
+      "persistentUuid": "4cda83e3-fe22-4242-95f2-1ab0323a72bb",
+      "width": 3456,
+      "x": 3966,
+      "y": 170,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PausedText",
+      "persistentUuid": "8eab47fd-9694-43a4-9b47-87cbb1325fe1",
+      "width": 0,
+      "x": 857,
+      "y": 236,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ResumeText",
+      "persistentUuid": "c7f34406-4b0d-4453-a625-ef4f597e8471",
+      "width": 0,
+      "x": 882,
+      "y": 522,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PauseExitText",
+      "persistentUuid": "a2c0ed71-18ca-40d6-8a49-44d3f47a4622",
+      "width": 0,
+      "x": 717,
+      "y": 710,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 787,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PauseBackgorund",
+      "persistentUuid": "b96d88d5-02cb-4bf5-b733-eef7c197ccfb",
+      "width": 1186,
+      "x": 479,
+      "y": 146,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7280,66 +7381,6 @@
                       {
                         "x": 327.5,
                         "y": 1665.5
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "BgLevel1",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "bgAI2.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 2816,
-                        "y": 0
-                      },
-                      {
-                        "x": 2816,
-                        "y": 1432
-                      },
-                      {
-                        "x": 0,
-                        "y": 1432
                       }
                     ]
                   ]
@@ -13467,13 +13508,238 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BgLevel2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "original-a8b9c70f372b2359936670988434ebfc.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1903,
+                        "y": 0
+                      },
+                      {
+                        "x": 1903,
+                        "y": 1067
+                      },
+                      {
+                        "x": 0,
+                        "y": 1067
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PauseBackgorund",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "image.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 985,
+                        "y": 0
+                      },
+                      {
+                        "x": 985,
+                        "y": 670
+                      },
+                      {
+                        "x": 0,
+                        "y": 670
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ResumeText",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "resume",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "Unnamed2.fnt",
+        "textureAtlasResourceName": "Unnamed4.png",
+        "align": "center",
+        "wordWrap": false
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "PauseExitText",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "exit to menu",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "Unnamed2.fnt",
+        "textureAtlasResourceName": "Unnamed4.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "PausedText",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "PAUSE",
+        "opacity": 255,
+        "scale": 1.25,
+        "fontSize": 20,
+        "tint": "206;69;69",
+        "bitmapFontResourceName": "Unnamed2.fnt",
+        "textureAtlasResourceName": "Unnamed4.png",
+        "align": "center",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "BgLevel1"
+        "objectName": "BgLevel2"
       },
       {
         "objectName": "EndLevel"
@@ -13534,6 +13800,18 @@
       },
       {
         "objectName": "PlatformZ2"
+      },
+      {
+        "objectName": "PauseBackgorund"
+      },
+      {
+        "objectName": "ResumeText"
+      },
+      {
+        "objectName": "PauseExitText"
+      },
+      {
+        "objectName": "PausedText"
       }
     ]
   },
@@ -15092,6 +15370,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",
