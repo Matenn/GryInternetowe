@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 219,
+    "build": 221,
     "major": 5,
-    "minor": 4,
+    "minor": 5,
     "revision": 0
   },
   "properties": {
@@ -2558,6 +2558,94 @@
         "name": "bee_animated/frame_25_delay-s.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Projekt bez nazwy2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Projekt bez nazwy2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pixlr-image-generator-4250d78b-ea4c-436a-96c1-f5dbb71e17ed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixlr-image-generator-4250d78b-ea4c-436a-96c1-f5dbb71e17ed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pixlr-image-generator-addf5ce9-b178-48a3-8188-96c08141abb8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixlr-image-generator-addf5ce9-b178-48a3-8188-96c08141abb8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "original-a8b9c70f372b2359936670988434ebfc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "original-a8b9c70f372b2359936670988434ebfc.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/bgAI.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\bgAI.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "right-arrow-button-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "right-arrow-button-icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "left-arrow-button-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "left-arrow-button-icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/right-arrow-button-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\right-arrow-button-icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/left-arrow-button-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\left-arrow-button-icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "space-button-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "space-button-icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "z-button-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "z-button-icon.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2631,6 +2719,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/how2play"
     }
   ],
   "externalEvents": [],
