@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.24175735580761773,
+    "snap": true,
+    "zoomFactor": 0.42484613919611947,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2425,8 +2425,8 @@
       "name": "PausedText",
       "persistentUuid": "8eab47fd-9694-43a4-9b47-87cbb1325fe1",
       "width": 0,
-      "x": 857,
-      "y": 236,
+      "x": 760,
+      "y": 231,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -2441,8 +2441,8 @@
       "name": "ResumeText",
       "persistentUuid": "c7f34406-4b0d-4453-a625-ef4f597e8471",
       "width": 0,
-      "x": 882,
-      "y": 522,
+      "x": 785,
+      "y": 517,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -2457,8 +2457,8 @@
       "name": "PauseExitText",
       "persistentUuid": "a2c0ed71-18ca-40d6-8a49-44d3f47a4622",
       "width": 0,
-      "x": 717,
-      "y": 710,
+      "x": 620,
+      "y": 705,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -2474,9 +2474,26 @@
       "name": "PauseBackgorund",
       "persistentUuid": "b96d88d5-02cb-4bf5-b733-eef7c197ccfb",
       "width": 1186,
-      "x": 479,
-      "y": 146,
+      "x": 382,
+      "y": 141,
       "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "Dim",
+      "name": "Blur",
+      "persistentUuid": "cd25759a-6623-4c73-ab56-81835a43869c",
+      "width": 2112,
+      "x": 0,
+      "y": 0,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13733,6 +13750,67 @@
         "align": "center",
         "wordWrap": true
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Blur",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13764,6 +13842,9 @@
       },
       {
         "objectName": "Player"
+      },
+      {
+        "objectName": "Blur"
       },
       {
         "objectName": "Coin1"
@@ -13880,6 +13961,17 @@
             "=",
             "\"coins: \" + CoinsCollected + \"/\" + CoinsAvailable"
           ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Blur",
+            "Opacity",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -13888,6 +13980,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Coins",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14083,6 +14176,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Attack",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14502,6 +14596,17 @@
                 "",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Blur",
+                "Opacity",
+                "=",
+                "120"
+              ]
             }
           ]
         },
@@ -14564,6 +14669,17 @@
               "parameters": [
                 "",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Blur",
+                "Opacity",
+                "=",
+                "0"
               ]
             }
           ]
@@ -14740,6 +14856,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Walking Sound",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14806,6 +14923,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Finish level",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -15314,6 +15432,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Dim",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

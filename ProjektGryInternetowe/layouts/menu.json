@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2796226521839413,
+    "zoomFactor": 0.3088741216342695,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -41,7 +41,7 @@
       "persistentUuid": "8fac6408-b3f3-4616-ae0a-1b5516a0f36e",
       "width": 1229,
       "x": 371,
-      "y": 66,
+      "y": 34,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -57,7 +57,7 @@
       "persistentUuid": "783af5fe-8583-4c3f-896b-e0fb33d76a18",
       "width": 0,
       "x": 797,
-      "y": 483,
+      "y": 384,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -73,7 +73,7 @@
       "persistentUuid": "2e1853ab-0552-4432-8361-f2309fcc3c6a",
       "width": 0,
       "x": 630,
-      "y": 611,
+      "y": 512,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -88,8 +88,8 @@
       "name": "Wyjdz",
       "persistentUuid": "cd78f6a1-b715-4f03-ab7d-c183c8c188e4",
       "width": 0,
-      "x": 800,
-      "y": 896,
+      "x": 798,
+      "y": 931,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -221,7 +221,7 @@
       "name": "Powrot",
       "persistentUuid": "1aec44ac-34f1-4e89-9a92-52f6aa7bb0db",
       "width": 0,
-      "x": 3072,
+      "x": 3095,
       "y": 899,
       "zOrder": 11,
       "numberProperties": [],
@@ -1184,6 +1184,152 @@
       "x": 7040,
       "y": -384,
       "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Powrot",
+      "persistentUuid": "6e797fdc-faa2-4e23-8990-9f8ea5889319",
+      "width": 0,
+      "x": -1481,
+      "y": 899,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "bg",
+      "name": "NewSprite",
+      "persistentUuid": "6d7280db-e537-4bc1-9afd-eff35e13d74b",
+      "width": 1920,
+      "x": -2240,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Authors",
+      "persistentUuid": "014e3233-3782-4121-b01b-aca4c7264434",
+      "width": 0,
+      "x": -1508,
+      "y": 66,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "AuthorsDescription",
+      "persistentUuid": "6f0de487-bc80-4cf2-97f0-74892833ec9e",
+      "width": 0,
+      "x": -1632,
+      "y": 160,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Assets",
+      "persistentUuid": "0be0b317-37e4-4934-b683-93052f90fe59",
+      "width": 0,
+      "x": -1632,
+      "y": 480,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "AssetsDescription",
+      "persistentUuid": "62c4817b-2912-4135-b12c-e8f28d075c22",
+      "width": 0,
+      "x": -1877,
+      "y": 576,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HowToPlay",
+      "persistentUuid": "12af49e4-dc6e-4688-b02a-23789f8b4e51",
+      "width": 0,
+      "x": 571,
+      "y": 680,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Credits",
+      "persistentUuid": "30685697-8818-4d9b-9972-225a3d15b6a2",
+      "width": 0,
+      "x": 719,
+      "y": 790,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "hid",
+      "name": "CreditsMark",
+      "persistentUuid": "5ac109ef-c940-4be7-b312-8678a34fe61f",
+      "width": 1920,
+      "x": -2240,
+      "y": 0,
+      "zOrder": 65,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4489,6 +4635,249 @@
         "g": 0,
         "b": 0
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Assets",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Used assets:",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "Unnamed2.fnt",
+        "textureAtlasResourceName": "Unnamed4.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Authors",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Authors:\n",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "Unnamed2.fnt",
+        "textureAtlasResourceName": "Unnamed4.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "AuthorsDescription",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Marcin Kaczmarzyk\nAdam Gorny\nOskar Grabara\nKacper Szuster\n",
+        "opacity": 255,
+        "scale": 0.7,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "Unnamed2.fnt",
+        "textureAtlasResourceName": "Unnamed4.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "AssetsDescription",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Male character- assets store\nUI Buttons - assets store\nanimated portal - assets store\nSounds - Pixabay",
+        "opacity": 255,
+        "scale": 0.7,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "Unnamed2.fnt",
+        "textureAtlasResourceName": "Unnamed4.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "HowToPlay",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "How to play",
+        "opacity": 255,
+        "scale": 1.2,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "Unnamed2.fnt",
+        "textureAtlasResourceName": "Unnamed4.png",
+        "align": "center",
+        "wordWrap": false
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Credits",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Credits",
+        "opacity": 255,
+        "scale": 1.2,
+        "fontSize": 20,
+        "tint": "0;0;0",
+        "bitmapFontResourceName": "Unnamed2.fnt",
+        "textureAtlasResourceName": "Unnamed4.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "CreditsMark",
+      "texture": "NewTiledSprite",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -4507,6 +4896,12 @@
         "objectName": "Wyjdz"
       },
       {
+        "objectName": "HowToPlay"
+      },
+      {
+        "objectName": "Credits"
+      },
+      {
         "objectName": "Dzwięk"
       },
       {
@@ -4520,6 +4915,18 @@
       },
       {
         "objectName": "Poziom2"
+      },
+      {
+        "objectName": "Authors"
+      },
+      {
+        "objectName": "Assets"
+      },
+      {
+        "objectName": "AuthorsDescription"
+      },
+      {
+        "objectName": "AssetsDescription"
       },
       {
         "objectName": "NewSprite6"
@@ -4577,6 +4984,9 @@
       },
       {
         "objectName": "Level4Mark"
+      },
+      {
+        "objectName": "CreditsMark"
       },
       {
         "objectName": "SoundSlider"
@@ -4912,8 +5322,34 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "Credits",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenCameraPosition2"
+          },
+          "parameters": [
+            "",
+            "\"CameraMove\"",
+            "CreditsMark.CenterX()",
+            "CameraCenterY()",
+            "",
+            "\"easeInOutQuad\"",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -5601,6 +6037,143 @@
           "parameters": [
             "",
             "\"Level1\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Credits",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BitmapText::SetTint"
+          },
+          "parameters": [
+            "Credits",
+            "\"47;114;128\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Credits",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BitmapText::SetTint"
+          },
+          "parameters": [
+            "Credits",
+            "\"0;0;0\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "HowToPlay",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BitmapText::SetTint"
+          },
+          "parameters": [
+            "HowToPlay",
+            "\"47;114;128\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "HowToPlay",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BitmapText::SetTint"
+          },
+          "parameters": [
+            "HowToPlay",
+            "\"0;0;0\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "HowToPlay",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"How2Play\"",
             ""
           ]
         }
