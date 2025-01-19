@@ -7998,8 +7998,23 @@
                     "=",
                     "TotalCoinsLevel1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"Save\"",
+                    "\"Save\"",
+                    "GlobalVarToJSON(Save)"
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         }

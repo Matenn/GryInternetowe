@@ -27,6 +27,11 @@
       "name": "TempSettings",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "TempSave",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -411,23 +416,6 @@
       "x": 4000,
       "y": -768,
       "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 156,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NextLevel3",
-      "persistentUuid": "c6c8d7f3-f190-4325-843f-1552df9ea034",
-      "width": 160,
-      "x": 6304,
-      "y": -764,
-      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5144,6 +5132,26 @@
             "",
             "Settings.Music",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ReadStringFromStorage"
+          },
+          "parameters": [
+            "\"Save\"",
+            "\"Save\"",
+            "",
+            "TempSave"
+          ]
+        },
+        {
+          "type": {
+            "value": "JSONToVariableStructure2"
+          },
+          "parameters": [
+            "TempSave",
+            "Save"
           ]
         },
         {

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.42484613919611947,
+    "zoomFactor": 0.2853612409218296,
     "windowMask": false
   },
   "objectsGroups": [
@@ -13980,7 +13980,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Coins",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14176,7 +14175,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attack",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14499,6 +14497,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Pause menu",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14923,7 +14922,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Finish level",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -15031,7 +15029,7 @@
                   "parameters": [
                     "TotalCoinsLevel2",
                     ">",
-                    "Save.StarsLevel1"
+                    "Save.StarsLevel2"
                   ]
                 }
               ],
@@ -15044,6 +15042,16 @@
                     "Save.StarsLevel2",
                     "=",
                     "TotalCoinsLevel2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"Save\"",
+                    "\"Save\"",
+                    "GlobalVarToJSON(Save)"
                   ]
                 }
               ]
@@ -15170,6 +15178,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "EnemySnail2",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
